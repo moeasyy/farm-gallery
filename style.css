@@ -1,0 +1,66 @@
+body{
+    background-color: #FFA725;
+    text-align: center;
+    background-image: url(revback2.jpg);
+    background-size: cover;
+
+}
+
+#header{
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+
+}
+
+#navigation{
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 50px 50px 50px 50px;
+
+}
+
+#navigation a{
+    text-decoration: none;
+    
+
+    padding: 20px 20px 20px 20px;
+    
+    
+}
+
+#navigation a:hover{
+    background-color:#C1D8C3 ;
+    padding: 20px 20px 20px 20px;
+}
+
+#gallery{
+    
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    padding: 10px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#gallery img{
+    border-radius: 20px;
+}
+
+  
+    
+
+#footer{
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+
+
+    
